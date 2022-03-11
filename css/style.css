@@ -1,0 +1,116 @@
+html
+{    
+    background:url('../images/bg1.jpg') no-repeat center;
+    background-size:cover;
+    height:100vh;
+    width: 100%;    
+    
+}
+.wrapper
+{    
+    padding-top: 0em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+.navbar
+{
+    margin-top: -4.5em;
+}
+#navbar_button
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: flex-end;
+    margin-left: 65%;
+    height: 38px;   
+    
+    font-display: none; 
+               
+}
+#navbar_button #home
+{
+    background-color: red;
+    border: 0.5em transparent solid;
+    padding-bottom: 2px;
+    border-radius: 4px; 
+    height: 40px; 
+}
+#navbar_button li button
+{
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: bold;  
+    color: white;  
+    background-color:unset;
+
+    border:none;
+
+    font-weight:bold;    
+    height: 38px;
+    width: auto; 
+    
+}
+#navbar_button li:nth-child(n):hover
+{
+    height: 32px; 
+    background-color: red;
+    border: 0.5em transparent solid;
+    border-radius: 5px;   
+}
+.navbar ul
+{
+    list-style-type:none;
+}
+#logo
+{
+    text-align: left;
+    margin-left: 3em;
+    margin-top: 1.5em;
+    height: 3em;
+    width: 10em;
+}
+.center #middle_title
+{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;    
+    padding-top: 2.0em;
+    
+    color: white;
+    font-weight:bold;
+    font-size: 4em;
+}
+.center #home_options
+{
+    display: flex;
+    text-align: center; 
+    flex-direction: row;   
+    
+    justify-content:space-around;
+    align-items: center; 
+    
+    margin-left: 39.5%;
+    margin-right: 39.5%;
+
+    list-style-type: none;
+       
+}
+.center #home_options li button
+{
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight:normal;
+    color: white;
+    height: 52px;    
+    background-color: red;
+    
+
+    border: 0.6em solid red;
+    border-radius:25px;    
+}
+#home_options li:nth-child(n):hover
+{
+    opacity: 0.5;
+    cursor: not-allowed;
+}
